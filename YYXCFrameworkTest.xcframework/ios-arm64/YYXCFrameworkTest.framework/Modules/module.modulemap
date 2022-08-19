@@ -1,0 +1,11 @@
+framework module YYXCFrameworkTest {
+  umbrella header "YYXCFrameworkTest.h"
+
+  export *
+  module * { export * }
+}
+
+module YYXCFrameworkTest.Swift {
+    header "YYXCFrameworkTest-Swift.h"
+    requires objc
+}
